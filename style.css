@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: o;
+}
+
+body {
+    background-color: aqua;
+
+
+}
+
+ .container {
+    background-color: white;
+    width: 70%;
+    margin: auto;
+    min-height: 100vh;
+    padding: 30px;
+    box-sizing: border-box;
+ }
+
+   .container h1 {
+      font-family: 'Times New Roman', Times, serif;
+      text-align: center;
+      margin: 30px;
+      
+   }
+
+ form {
+    display: flex;
+    flex-direction: column;
+ }
+
+
+ input,textarea,button {
+    padding: 10px;
+    border: 1px solid rgba(0,0,0,0.2,);
+    font: 100 1.1rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 5px;
+    outline: none;
+    margin: 13px;
+    
+
+ }
+ button {
+    background-color: rgb(50,50,50 );
+    color: white;
+ }
+ button:hover {
+    background-color: blueviolet;
+    
+ }
+
+ .task {
+    background-color: rgb(247,247,247);
+    font: 100 1.1rem sans-serif;
+    padding: 30px;
+    margin: 2vmax;
+    color: black;
+    display: flex;
+    align-items: center;
+ }
+
+.task > div {
+    width: 100%;
+}
+
+ .task span {
+    color: rgb(145, 129, 129);
+ }
+
+ .deleteBtn {
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: brown;
+ }
